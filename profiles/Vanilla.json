@@ -67,7 +67,7 @@
   "servers": [
     {
       "name": "Vanilla",
-      "serverAddress": "ru.eternitymc.ru",
+      "serverAddress": "eu.eternitymc.ru",
       "serverPort": 25565,
       "isDefault": true,
       "protocol": -1,
