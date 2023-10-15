@@ -1,0 +1,89 @@
+{
+  "title": "Vanilla",
+  "uuid": "007d03d3-d2e6-4c7c-a7ef-67c57c5defb6",
+  "version": "1.20.1",
+  "info": "Здесь нет приватов и доната, все реализуется благодаря честной игре и командной работе. Объединяйтесь с другими игроками, исследуйте бесконечные просторы мира и стройте удивительные сооружения вместе.",
+  "dir": "Vanilla",
+  "sortIndex": 0,
+  "assetIndex": "1.20.1",
+  "assetDir": "assets",
+  "update": [
+    "servers.dat",
+    "options.txt",
+    "resourcepacks"
+  ],
+  "updateExclusions": [],
+  "updateShared": [],
+  "updateVerify": [
+    "libraries",
+    "natives",
+    "mods",
+    "minecraft.jar",
+    "forge.jar",
+    "liteloader.jar"
+  ],
+  "updateOptional": [
+    {
+      "actions": [
+        {
+          "args": [
+            "-XstartOnFirstThread"
+          ],
+          "type": "jvmArgs"
+        }
+      ],
+      "mark": false,
+      "visible": false,
+      "name": "MacOSArgs",
+      "triggersList": [
+        {
+          "os": "MACOSX",
+          "required": false,
+          "inverted": false,
+          "type": "os"
+        }
+      ],
+      "subTreeLevel": 1,
+      "isPreset": false,
+      "limited": false
+    }
+  ],
+  "jvmArgs": [
+    "-XX:+DisableAttachMechanism",
+    "-Djava.library.path=natives",
+    "-Dfml.ignorePatchDiscrepancies=true",
+    "-Dfml.ignoreInvalidMinecraftCertificates=true"
+  ],
+  "classPath": [
+    "libraries",
+    "minecraft.jar"
+  ],
+  "modulePath": [],
+  "modules": [],
+  "altClassPath": [],
+  "clientArgs": [],
+  "compatClasses": [],
+  "properties": {},
+  "servers": [
+    {
+      "name": "Vanilla",
+      "serverAddress": "ru.eternitymc.ru",
+      "serverPort": 25565,
+      "isDefault": true,
+      "protocol": -1,
+      "socketPing": true
+    }
+  ],
+  "classLoaderConfig": "LAUNCHER",
+  "flags": [],
+  "recommendJavaVersion": 17,
+  "minJavaVersion": 17,
+  "maxJavaVersion": 999,
+  "settings": {
+    "ram": 4096,
+    "autoEnter": true,
+    "fullScreen": false
+  },
+  "limited": false,
+  "mainClass": "net.fabricmc.loader.launch.knot.KnotClient"
+}
