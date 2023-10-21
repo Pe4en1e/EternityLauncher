@@ -5,7 +5,7 @@
 
 /*-- Вертикальная полоса на главной сцене --*/
 .vline{
-    -fx-background-color: -fx-grayTr;
+    -fx-background-color: #ae91ec3f;
 }
 
 /*-- Ошибки --*/
@@ -48,11 +48,15 @@
 #autoenter {
     -fx-font-size: 7pt;
     -fx-background-image: url('../../images/icons/checkbox_off.png');
-    -fx-text-fill: #000000;
+    -fx-text-fill: #FFFFFF;
 }
 #savePassword:selected,
 #autoenter:selected {
     -fx-background-image: url('../../images/icons/checkbox_on.png');
+}
+
+#leftPane {
+    -fx-fill: #ffffff2a;
 }
 
 /*-- Метод авторизации --*/
